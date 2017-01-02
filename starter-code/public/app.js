@@ -1,4 +1,8 @@
 console.log('app.js connected');
-$(document).ready(function(){
-  console.log('DOM ready');
+
+$(document).ready(function() {
+    console.log('DOM ready');
+
+
+    
 });

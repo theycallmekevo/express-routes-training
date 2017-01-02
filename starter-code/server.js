@@ -22,15 +22,33 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 // ROUTES
 // Root Route
+// app.get('/', function (request, response) {
+//   response.send('hello there!')
+// });
+
+app.get('/', function (request, response) {
+  response.sendFile('views/index.html' , {root : __dirname});
+});
+
+var targetNum = 10;
+
+// route /pickanumber number=5 console.log ('too low/ too high')
+app.get('/pickanumber', function(request, response){
+  var number = parseInt(request.query.number);
+
+  if (number === targetNum) {
+    response.send('nailed it!');
+  } else if (number < targetNum) {
+    response.send('Too low...');
+  } else if (number > targetNum) {
+    response.send('Too high!');
+  }
+});
+
 
 
 // Gallery View Route
 
-
-// The Number Guessing Game
-
-
-// Gallery
 
 
 // SERVER START
