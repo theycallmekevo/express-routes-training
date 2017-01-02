@@ -1,5 +1,11 @@
 #Training: Express Routing Practice
 
+### Reflection
+
+Name: Kevin Tran
+
+Successfully completed all the Express modules and independent exercises. The dynamic parameter urls and query string urls lecture were very helpful in completing the number guessing game and art gallery apps. I had trouble parsing the user input from the form, after triple checking that the code was correct and body-parser was included. I compared it to the solution, after copying that section over, it all worked just fine. I've made flashcards of all the different sections of creating an express app and will continue to practice. 
+
 ### Deliverable
 
 1. When you wrap up work, edit this README to include your name, a link to the original repository, and a 3-5 sentence reflection on completing this assignment at the top of the document.
